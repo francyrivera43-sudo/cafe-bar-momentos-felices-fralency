@@ -1,0 +1,134 @@
+/* styles.css - Café Bar Momentos Felices */
+
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Body y fondo */
+body {
+  background-color: #F5E6D3; /* Fondo beige claro */
+  color: #2C2C2C; /* Texto principal gris oscuro */
+  line-height: 1.6;
+}
+
+/* Header */
+header {
+  text-align: center;
+  padding: 40px 20px;
+  background-color: #4B2E2E; /* Marrón oscuro */
+  color: #F5E6D3;
+}
+
+header .logo {
+  width: 120px;
+  margin-bottom: 20px;
+}
+
+header h1 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+header h2 {
+  font-size: 24px;
+  font-weight: normal;
+  color: #6B8E23; /* Verde oliva */
+  margin-bottom: 15px;
+}
+
+header p {
+  font-size: 16px;
+}
+
+/* Secciones */
+section {
+  padding: 40px 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+/* Sección Menú */
+#menu h2 {
+  text-align: center;
+  font-size: 28px;
+  color: #4B2E2E;
+  margin-bottom: 30px;
+}
+
+#menu .card {
+  background-color: #FFFFFF;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  border-radius: 8px;
+  overflow: hidden;
+  margin: 20px;
+  text-align: center;
+  display: inline-block;
+  width: 220px;
+  vertical-align: top;
+  transition: transform 0.3s;
+}
+
+#menu .card:hover {
+  transform: translateY(-5px);
+}
+
+#menu .card img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
+#menu .card h3 {
+  font-size: 20px;
+  margin: 10px 0;
+  color: #4B2E2E;
+}
+
+#menu .card p {
+  font-size: 14px;
+  padding: 0 10px 10px 10px;
+  color: #2C2C2C;
+}
+
+/* Sobre Nosotros */
+#about h2 {
+  text-align: center;
+  font-size: 28px;
+  color: #4B2E2E;
+  margin-bottom: 20px;
+}
+
+#about p {
+  text-align: center;
+  max-width: 700px;
+  margin: auto;
+  font-size: 16px;
+}
+
+/* Contacto */
+#contact h2 {
+  text-align: center;
+  font-size: 28px;
+  color: #4B2E2E;
+  margin-bottom: 20px;
+}
+
+#contact p {
+  text-align: center;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #4B2E2E;
+  color: #F5E6D3;
+  font-size: 14px;
+  margin-top: 40px;
+}
