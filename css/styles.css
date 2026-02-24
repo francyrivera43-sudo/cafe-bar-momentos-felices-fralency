@@ -1,6 +1,8 @@
-/* styles.css - Café Bar Momentos Felices */
+/* ============================= */
+/*  Café Bar Momentos Felices   */
+/* ============================= */
 
-/* Reset básico */
+/* ---------- Reset básico ---------- */
 * {
   margin: 0;
   padding: 0;
@@ -8,14 +10,14 @@
   font-family: Arial, sans-serif;
 }
 
-/* Body y fondo */
+/* ---------- Estilos generales ---------- */
 body {
-  background-color: #F5E6D3; /* Fondo beige claro */
-  color: #2C2C2C; /* Texto principal gris oscuro */
+  background-color: #F5E6D3; /* Beige claro */
+  color: #2C2C2C; /* Gris oscuro */
   line-height: 1.6;
 }
 
-/* Header */
+/* ---------- Header ---------- */
 header {
   text-align: center;
   padding: 40px 20px;
@@ -44,112 +46,23 @@ header p {
   font-size: 16px;
 }
 
-/* Secciones */
+/* ---------- Secciones generales ---------- */
 section {
-  padding: 40px 20px;
+  padding: 60px 20px;
   max-width: 1000px;
   margin: auto;
 }
 
-/* Sección Menú */
-#menu h2 {
+section h2 {
   text-align: center;
   font-size: 28px;
   color: #4B2E2E;
-  margin-bottom: 30px;
+  margin-bottom: 40px;
 }
 
-#menu .card {
-  background-color: #FFFFFF;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-  border-radius: 8px;
-  overflow: hidden;
-  margin: 20px;
-  text-align: center;
-  display: inline-block;
-  width: 220px;
-  vertical-align: top;
-  transition: transform 0.3s;
-}
-
-#menu .card:hover {
-  transform: translateY(-5px);
-}
-
-#menu .card img {
-  width: 100%;
-  height: 150px;
-  object-fit: cover;
-}
-
-#menu .card h3 {
-  font-size: 20px;
-  margin: 10px 0;
-  color: #4B2E2E;
-}
-
-#menu .card p {
-  font-size: 14px;
-  padding: 0 10px 10px 10px;
-  color: #2C2C2C;
-}
-
-/* Sobre Nosotros */
-#about h2 {
-  text-align: center;
-  font-size: 28px;
-  color: #4B2E2E;
-  margin-bottom: 20px;
-}
-
-#about p {
-  text-align: center;
-  max-width: 700px;
-  margin: auto;
-  font-size: 16px;
-}
-
-/* Contacto */
-#contact h2 {
-  text-align: center;
-  font-size: 28px;
-  color: #4B2E2E;
-  margin-bottom: 20px;
-}
-
-#contact p {
-  text-align: center;
-  font-size: 16px;
-  margin-bottom: 5px;
-}
-
-/* Footer */
-footer {
-  text-align: center;
-  padding: 20px;
-  background-color: #4B2E2E;
-  color: #F5E6D3;
-  font-size: 14px;
-  margin-top: 40px;
-}
-img {
-  width: 100%;
-  max-width: 300px;
-  border-radius: 10px;
-}
-.card img {
-  width: 100%;
-  height: 200px;
-  object-fit: cover;
-  border-radius: 8px;
-}
+/* ---------- Menú ---------- */
 #menu {
   text-align: center;
-  padding: 60px 20px;
-}
-
-#menu h2 {
-  margin-bottom: 40px;
 }
 
 .menu-container {
@@ -158,15 +71,73 @@ img {
   justify-content: center;
   gap: 30px;
 }
+
+.card {
+  background-color: #FFFFFF;
+  width: 220px;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.card h3 {
+  font-size: 20px;
+  margin: 15px 0 10px 0;
+  color: #4B2E2E;
+}
+
+.card p {
+  font-size: 14px;
+  padding: 0 15px 20px 15px;
+  color: #2C2C2C;
+}
+
+/* ---------- Sobre Nosotros ---------- */
+#about p {
+  text-align: center;
+  max-width: 700px;
+  margin: auto;
+  font-size: 16px;
+}
+
+/* ---------- Galería ---------- */
 #gallery {
   text-align: center;
-  padding: 40px 20px;
 }
 
 #gallery img {
-  width: 400px;       /* Tamaño uniforme */
-  height: 300px;      /* Altura fija */
-  object-fit: cover;  /* Recorta sin deformar */
+  width: 400px;
+  height: 300px;
+  object-fit: cover;
   border-radius: 15px;
   margin: 15px;
+}
+
+/* ---------- Contacto ---------- */
+#contact p {
+  text-align: center;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+/* ---------- Footer ---------- */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #4B2E2E;
+  color: #F5E6D3;
+  font-size: 14px;
+  margin-top: 40px;
 }
