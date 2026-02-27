@@ -13,7 +13,7 @@ El objetivo del proyecto es ofrecer a los clientes una experiencia previa a su v
 - Crear una estructura web semántica utilizando HTML5.
 - Diseñar una interfaz visual atractiva con CSS3.
 - Organizar el repositorio con estructura profesional.
-- Documentar el proyecto en la carpeta docs/ para facilitar el desarrollo asistido por IA.
+- Documentar el proyecto en la carpeta `docs/` para facilitar el desarrollo asistido por IA.
 - Preparar la base para futuras mejoras con JavaScript, React y Firebase.
 
 ---

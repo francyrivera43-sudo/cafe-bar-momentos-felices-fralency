@@ -1,32 +1,89 @@
-# Sistema de Diseño - Café Bar Momentos Felices
+# Design System – Café Bar Momentos Felices
 
-## Paleta de Colores
+## 1. Identidad Visual
 
-- **Color Primario (Botones y acciones):** #4B2E2E (Marrón oscuro)
-- **Color Secundario (Detalles y acentos):** #6B8E23 (Verde oliva)
-- **Fondo General:** #F5E6D3 (Beige claro)
-- **Texto Principal:** #2C2C2C (Gris oscuro)
-- **Color de Error o Advertencia:** #B22222 (Rojo oscuro)
+El sistema de diseño del proyecto está inspirado en un ambiente cálido, acogedor y elegante, representando la experiencia de un café-bar moderno.
 
-## Tipografía
+Se prioriza una estética limpia, minimalista y fácil de navegar.
 
-- **Fuente Principal:** Arial, sans-serif
-- **Tamaño base del texto:** 16px
-- **Títulos H1:** 32px, bold
-- **Títulos H2:** 24px, bold
-- **Texto normal:** 16px regular
-- **Texto pequeño:** 14px
+---
 
-## Reglas de Estilo
+## 2. Paleta de Colores
 
-- Diseño limpio y minimalista.
-- Interfaz pensada bajo enfoque "Mobile First".
-- Botones con:
-  - border-radius: 8px
-  - padding: 10px 20px
-  - efecto hover con cambio ligero de color.
-- Tarjetas (cards):
-  - Fondo blanco (#FFFFFF)
-  - Sombra ligera (box-shadow suave)
-  - Bordes redondeados (8px)
-- Espaciado basado en múltiplos de 8px (8px, 16px, 24px).
+### Colores Principales
+
+- **Primary Color (Acciones y botones):**  
+  `#4B2E2E` – Marrón oscuro  
+  Representa elegancia, café y calidez.
+
+- **Secondary Color (Detalles y acentos):**  
+  `#6B8E23` – Verde oliva  
+  Evoca naturalidad y frescura.
+
+### Colores Neutros
+
+- **Background:** `#F5E6D3` – Beige claro  
+- **Card Background:** `#FFFFFF` – Blanco  
+- **Texto Principal:** `#2C2C2C` – Gris oscuro  
+
+### Colores de Estado
+
+- **Error / Advertencia:** `#B22222` – Rojo oscuro
+
+---
+
+## 3. Tipografía
+
+### Fuente Principal
+- `Arial, sans-serif`
+- Elegida por su legibilidad y compatibilidad universal.
+
+### Escala Tipográfica
+
+- **H1:** 32px – Bold  
+- **H2:** 24px – Bold  
+- **Texto base:** 16px – Regular  
+- **Texto secundario:** 14px  
+
+El tamaño base del proyecto es 16px para garantizar accesibilidad y lectura cómoda.
+
+---
+
+## 4. Componentes UI
+
+### Botones
+
+- `border-radius: 8px`
+- `padding: 10px 20px`
+- Hover effect con ligera variación de color
+- Texto en contraste alto para accesibilidad
+
+### Cards (Tarjetas)
+
+- Fondo blanco (`#FFFFFF`)
+- Bordes redondeados de 8px
+- Sombra ligera (`box-shadow` suave)
+- Espaciado interno uniforme
+
+---
+
+## 5. Sistema de Espaciado
+
+Se utiliza una escala basada en múltiplos de 8px:
+
+- 8px
+- 16px
+- 24px
+- 32px
+
+Esto permite mantener consistencia visual y alineación estructural en toda la interfaz.
+
+---
+
+## 6. Principios de Diseño
+
+- Enfoque **Mobile First**
+- Diseño responsive
+- Consistencia visual
+- Claridad en jerarquía visual
+- Accesibilidad básica (contraste y legibilidad)
