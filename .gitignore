@@ -1,0 +1,19 @@
+# Archivos del sistema Windows
+Thumbs.db
+desktop.ini
+
+# Archivos del sistema Mac
+.DS_Store
+
+# Archivos temporales
+*.log
+*.tmp
+
+# Carpetas futuras de Node.js (para cuando uses React)
+node_modules/
+
+# Archivos de entorno
+.env
+
+# Configuraciones de VS Code
+.vscode/
