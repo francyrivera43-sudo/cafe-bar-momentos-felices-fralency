@@ -3,17 +3,31 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Café Bar Momentos Felices. Un lugar en Medellín para disfrutar café, cócteles y momentos inolvidables.">
   <title>Café Bar Momentos Felices</title>
   <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
 
-  <!-- Header -->
+  <!-- Header & Navbar -->
   <header>
-    <img src="assets/Captura5.jpg" alt="Logo Café Bar" class="logo">
-    <h1>Café Bar Momentos Felices</h1>
-    <p>Un lugar para disfrutar café, cócteles y momentos inolvidables</p>
+    <nav class="navbar">
+      <div class="nav-logo">
+        <img src="assets/logo.jpg" alt="Logo Café Bar" class="logo">
+      </div>
+      <button class="nav-toggle" id="menu-toggle" aria-label="Abrir menú">☰</button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#menu">Menú</a></li>
+        <li><a href="#gallery">Galería</a></li>
+        <li><a href="#about">Nosotros</a></li>
+        <li><a href="#contact">Contacto</a></li>
+      </ul>
+    </nav>
+    <div class="hero-content">
+      <h1>Café Bar Momentos Felices</h1>
+      <p>Un lugar para disfrutar café, cócteles y momentos inolvidables</p>
+    </div>
   </header>
 
   <!-- Sección de Menú -->
@@ -23,38 +37,37 @@
     <div class="menu-container">
 
       <div class="card">
-        <img src="assets/Captura1.jpg" alt="Café del día">
+        <img src="assets/cafe-espresso.jpg" alt="Café Espresso">
         <h3>Café Espresso</h3>
         <p>Un café fuerte y aromático para despertar tus sentidos.</p>
       </div>
 
       <div class="card">
-        <img src="assets/Captura2.jpg" alt="Pastel delicioso">
+        <img src="assets/pastel-chocolate.jpg" alt="Pastel de Chocolate">
         <h3>Pastel de Chocolate</h3>
         <p>Delicioso pastel recién horneado, perfecto para acompañar tu café.</p>
       </div>
 
       <div class="card">
-        <img src="assets/Captura4.jpg" alt="Brownie especial">
+        <img src="assets/brownie-especial.jpg" alt="Brownie Especial">
         <h3>Brownie Especial</h3>
         <p>Chocolate intenso con textura suave y deliciosa.</p>
       </div>
 
       <div class="card">
-        <img src="assets/Captura6.jpg" alt="Jugo natural">
+        <img src="assets/jugo-natural.jpg" alt="Jugo Natural">
         <h3>Jugo Natural</h3>
         <p>Fresco y saludable, hecho con frutas de temporada.</p>
       </div>
 
       <div class="card">
-        <img src="assets/Captura7.jpg" alt="Cóctel especial">
+        <img src="assets/coctel-casa.jpg" alt="Cóctel de la Casa">
         <h3>Cóctel de la Casa</h3>
         <p>Una mezcla especial para disfrutar por la tarde o noche.</p>
       </div>
 
-      <!-- SOLO ESTA PARTE ES NUEVA -->
       <div class="card">
-        <img src="assets/Captura 3.jpg" alt="Café Latte">
+        <img src="assets/cafe-latte.jpg" alt="Café Latte">
         <h3>Café Latte</h3>
         <p>
           Café suave y cremoso preparado con espresso y leche vaporizada,
@@ -69,12 +82,12 @@
   <!-- Sección Galería -->
   <section id="gallery">
     <h2>Nuestro Espacio</h2>
-
-    <img src="assets/Captura 8.jpg" alt="Café moderno">
-    <img src="assets/Captura10.jpg" alt="Ambiente acogedor">
-    <img src="assets/Captura11.jpg" alt="Bar elegante">
-    <img src="assets/Captura12.jpg" alt="Zona lounge">
-
+    <div class="gallery-grid">
+      <img src="assets/galeria-cafe-moderno.jpg" alt="Café moderno">
+      <img src="assets/galeria-ambiente.jpg" alt="Ambiente acogedor">
+      <img src="assets/galeria-bar.jpg" alt="Bar elegante">
+      <img src="assets/galeria-lounge.jpg" alt="Zona lounge">
+    </div>
   </section>
 
   <!-- Sección Sobre Nosotros -->
@@ -90,9 +103,19 @@
   <!-- Sección Contacto -->
   <section id="contact">
     <h2>Contacto</h2>
-    <p>Email: francylorenarivera@yahoo.com - alexcoce@hotmail.com</p>
-    <p>Teléfonos: 3113661391 - 3012118907</p>
-    <p>Dirección: Calle Falsa 123, Medellín</p>
+    <div class="contact-container">
+      <div class="contact-info">
+        <p><strong>Email:</strong> francylorenarivera@yahoo.com <br> alexcoce@hotmail.com</p>
+        <p><strong>Teléfonos:</strong> 3113661391 - 3012118907</p>
+        <p><strong>Dirección:</strong> Calle Falsa 123, Medellín</p>
+      </div>
+      <form class="contact-form" action="#" method="POST">
+        <input type="text" placeholder="Tu Nombre" required>
+        <input type="email" placeholder="Tu Email" required>
+        <textarea placeholder="Tu Mensaje" rows="4" required></textarea>
+        <button type="submit">Enviar Mensaje</button>
+      </form>
+    </div>
   </section>
 
   <!-- Footer -->
@@ -100,5 +123,9 @@
     <p>&copy; 2026 Café Bar Momentos Felices - Fralency</p>
   </footer>
 
+  <!-- Botón Volver Arriba -->
+  <button id="btn-top" aria-label="Volver arriba">↑</button>
+
+  <script src="js/app.js"></script>
 </body>
 </html>
